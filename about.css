@@ -1,0 +1,133 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    font-size: 16px;
+}
+
+/* HEADER */
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 6rem;
+    border-bottom: 3px solid #A9508B;
+    background-color: #35424a
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-around;
+    color: #fff;
+
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    padding-left: 2rem;
+}
+
+li {
+    padding-left: 2rem;
+    font-size: 1.5rem;
+}
+
+h2 {
+    font-size: 2rem;
+    color: #fff;
+}
+
+span {
+    color: #A9508B;
+}
+
+li:nth-of-type(2) {
+    text-decoration: underline #fff;
+    color: #A9508B;
+    cursor: pointer;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+
+}
+
+
+/* MAIN CONTENT */
+
+
+.subscribe-area {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 8rem;
+    background-color: #35424a;
+    color: #fff;
+}
+
+h4 {
+    font-size: 1.5rem;
+}
+
+#email {
+    height: 2.5rem;
+    width: 15rem;
+    padding-left: 1rem;
+}
+
+.button {
+    height: 2.5rem;
+    width: 7.5rem;
+    background-color: #A9508B;
+    border: none;
+    color: #fff;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin-top: 20px;
+    padding: 3vh;
+    column-gap: 10vh;
+
+}
+
+.cards h1 {
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+.card-1,
+.card-2,
+.card-3 {
+    padding: 5vh;
+    margin: 1rem;
+}
+
+.card-2,
+.card-3 {
+    background-color: #35424a;
+    color: #fff;
+}
+
+/*FOOTER*/
+footer {
+    height: 8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 250, 240);
+}
+
+#img-logo {
+    width: 18rem;
+}
