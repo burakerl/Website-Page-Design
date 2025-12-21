@@ -72,8 +72,8 @@ a {
     align-items: center;
     height: 63vh;
     background-image: url(images/showcase.jpg);
-    background-repeat: no-repeat;
     background-size: cover;
+    background-repeat: no-repeat;
     color: #fff;
 }
 
